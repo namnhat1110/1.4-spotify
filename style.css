@@ -1,0 +1,178 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    color: black;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 1rem 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    margin: 10px;
+    color: white;
+}
+
+section{
+    height: 60vh;
+    display: flex;
+}
+
+.sec1{
+    background-color: #ff4632;
+}
+
+.sec2{
+    background-color: #cb1582;
+    color: #a5ffef;
+}
+
+.sec3{
+    background-color: #2d46b9;
+    background-image: url(images/LiE_circles.svg);
+    background-size: 100%;
+    color: #1ed760;
+}
+
+.container1{
+    width: 50%;
+    padding-top: 3rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image1{
+    padding-top: 15px;
+}
+
+.container2{
+    width: 50%;
+    padding-top: 3rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 25rem;
+    height: 25rem;
+    background-color: #a5ffef;
+    color: #cb1582;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+.image2{
+    padding-top: 15px;
+}
+
+.container3{
+    width: 50%;
+    padding-top: 3rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text3{
+    flex: 1;
+    padding-top: 20px;
+}
+
+.text4{
+    flex: 1;
+}
+
+footer{
+    background-color: black;
+    padding: 10px 25%;
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 1rem;
+}
+.col5{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.navlogo{
+    height: 2rem;
+    width: auto;
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.flag{
+    margin-left: auto;
+}
+
+.left{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:0.8rem;
+    align-self: flex-end;
+}
+
+.right{
+    flex: 1;
+    text-align: right;
+    display: flex;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.button1{
+    border-radius: 40px;
+    border: none;
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+}
+
+.button2{
+    border-radius: 40px;
+    border: none;
+    padding: 0.6rem;
+    background-color: #a5ffef;
+    color: #cb1582;
+}
+
+.button3{
+    border-radius: 40px;
+    border: none;
+    padding: 0.6rem;
+    background-color: #1ed760;
+    color:#2d46b9;
+}
